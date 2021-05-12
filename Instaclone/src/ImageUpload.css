@@ -1,0 +1,28 @@
+.imageUpload {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    padding: 5px;
+    border: 1px solid black;
+   
+  
+    
+}
+
+.imageUpload > Button {
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+
+.imageUpload Button:hover {
+    background-color: lightslategray;
+    transition: all ease 0.2s;
+}
+
+.imageUpload__progress {
+    width: 100%;
+}
